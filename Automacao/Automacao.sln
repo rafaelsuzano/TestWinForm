@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tela", "Automacao\Tela.csproj", "{10C6B82C-5B4D-4B5A-A471-9D1723B4A71C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F} = {B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomacaoTela", "..\..\..\..\..\WinAppDrive\WinAppDriver\Samples\C#\CalculatorTest\AutomacaoTela.csproj", "{B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B3E738D6-1838-4F41-926B-0DE8A40BFDDE}"
+	ProjectSection(SolutionItems) = preProject
+		tools\Windows Application Driver\cpprest140_2_9.dll = tools\Windows Application Driver\cpprest140_2_9.dll
+		tools\Windows Application Driver\EULA.rtf = tools\Windows Application Driver\EULA.rtf
+		tools\Windows Application Driver\Microsoft.Win32.Primitives.dll = tools\Windows Application Driver\Microsoft.Win32.Primitives.dll
+		tools\Windows Application Driver\Microsoft.Win32.Registry.dll = tools\Windows Application Driver\Microsoft.Win32.Registry.dll
+		tools\Windows Application Driver\MitaBroker.dll = tools\Windows Application Driver\MitaBroker.dll
+		tools\Windows Application Driver\MitaLite.AppModel.dll = tools\Windows Application Driver\MitaLite.AppModel.dll
+		tools\Windows Application Driver\MitaLite.Foundation.dll = tools\Windows Application Driver\MitaLite.Foundation.dll
+		tools\Windows Application Driver\MitaLite.Localization.dll = tools\Windows Application Driver\MitaLite.Localization.dll
+		tools\Windows Application Driver\MitaLite.UIAutomationAdapter.dll = tools\Windows Application Driver\MitaLite.UIAutomationAdapter.dll
+		tools\Windows Application Driver\MitaLite.UIAutomationClient.dll = tools\Windows Application Driver\MitaLite.UIAutomationClient.dll
+		tools\Windows Application Driver\Newtonsoft.Json.dll = tools\Windows Application Driver\Newtonsoft.Json.dll
+		tools\Windows Application Driver\Readme.txt = tools\Windows Application Driver\Readme.txt
+		tools\Windows Application Driver\System.Diagnostics.Process.dll = tools\Windows Application Driver\System.Diagnostics.Process.dll
+		tools\Windows Application Driver\System.Threading.Thread.dll = tools\Windows Application Driver\System.Threading.Thread.dll
+		tools\Windows Application Driver\WinAppDriver.exe = tools\Windows Application Driver\WinAppDriver.exe
+		tools\Windows Application Driver\WinAppDriverCore.dll = tools\Windows Application Driver\WinAppDriverCore.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C6B82C-5B4D-4B5A-A471-9D1723B4A71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C6B82C-5B4D-4B5A-A471-9D1723B4A71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C6B82C-5B4D-4B5A-A471-9D1723B4A71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C6B82C-5B4D-4B5A-A471-9D1723B4A71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C5ADFF-D6B5-48C1-BB8C-571BFD583D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {529C8525-13A6-49EF-8161-717E45897099}
+	EndGlobalSection
+EndGlobal
